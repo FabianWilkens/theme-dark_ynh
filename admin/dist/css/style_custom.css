@@ -1,0 +1,223 @@
+/*    Yunohost Admin - Dark Theme
+  style_custom.css
+  Version: 1.0.0
+*/
+
+
+body {
+    background-color: #12171e;
+}
+
+a.homelink.slide.back img {
+    filter: grayscale(1) invert(0.8);
+}
+
+a.list-group-item,
+a.logout-btn,
+a.btn-default,
+a.app-category-card.panel.panel-default,
+button.btn-default,
+span.input-group-addon,
+ul#dropdownFilter.dropdown-menu,
+ul#dropdownFilter.dropdown-menu li.button.dropdownFilter,
+span.label.label-default.label-removable,
+div.btn-group.open ul.dropdown-menu,
+button.group-delete,
+select.form-control option,
+pre.service-log,
+pre.full-width,
+div.panel-body pre,
+table.table-firewall thead tr th,
+table.table-firewall tbody tr,
+table.table-firewall tbody tr td {
+    background-color: #21262d !important;
+    border-color: #30363d !important;
+    margin-bottom: 0 !important;
+}
+
+a.list-group-item:hover,
+a.logout-btn:hover,
+a.btn-default:hover,
+a.app-category-card.panel.panel-default:hover,
+button.btn-default:hover,
+button.btn.btn-default.active,
+span.input-group-addon:hover,
+ul#dropdownFilter.dropdown-menu li.button.dropdownFilter a:hover,
+span.label.label-default.label-removable:hover,
+div.btn-group.open ul.dropdown-menu li:hover,
+select.form-control option:hover {
+    background-color: #30363d !important;
+    border-color: #8b949e !important;
+}
+
+a.list-group-item .list-group-item-heading,
+button.list-group-item .list-group-item-heading,
+a.logout-btn,
+a.btn-default,
+a.app-category-card.panel.panel-default,
+button.btn-default,
+span.input-group-addon,
+ul#dropdownFilter.dropdown-menu li.button.dropdownFilter a,
+span.label.label-default.label-removable,
+div.btn-group.open ul.dropdown-menu li,
+div.btn-group.open ul.dropdown-menu li:hover,
+div.btn-group.open ul.dropdown-menu li button:hover,
+button.group-delete,
+select#domain.form-control option,
+pre.service-log,
+pre.full-width,
+div.panel-body pre {
+    color: #c9d1d9 !important;
+}
+
+button.group-delete {
+    border: none;
+}
+
+#page-footer a {
+    color: #9b949e !important;
+}
+
+div.panel-heading,
+div.panel-footer {
+    background-color: #21262d !important;
+    border-color: #30363d !important;
+}
+
+div.panel,
+div.panel-body,
+div.input-group-addon,
+div.list-group-item,
+a.list-group-item,
+div.list-group.grid {
+    background-color: #12171e !important;
+    border-color: #30363d !important;
+}
+
+
+hr {
+    border-color: #30363d;
+}
+
+h2.panel-title,
+h3.panel-title,
+dd,
+dt,
+td,
+tr,
+span.fa-fw.fa-user,
+body,
+h2.app-category-title,
+h3.app-category-card-desc,
+a.list-group-item,
+p.list-group-item-text,
+div.list-group-item-text,
+a.accordion-toggle,
+h2.list-group-item-heading small {
+    color: #c9d1d9 !important;
+}
+
+input.form-control,
+div.form-group div input,
+select {
+    background-color: #000 !important;
+    border-color: #21262d !important;
+    color: #c9d1d9 !important;
+}
+
+div#main div.loader.loader-content {
+    background: url(../img/ajax-loader.gif) center 15% no-repeat rgba(255,255,255,.2);
+    filter: grayscale(1) invert(0.8);
+}
+
+span.label.label-default.label-removable,
+div.btn-group {
+    margin-bottom: 10px !important;
+}
+
+div.list-group {
+    border-top: none !important;
+}
+
+/* Button color: #c9d1d9; */
+
+input.btn-default,
+span.label-default{
+    color: #000
+}
+
+li.alert-success,
+div.alert-success,
+button.btn-success,
+a.btn-success,
+input.btn-success,
+span.label-success{
+    background-color: #3c763d;
+    border-color: #3e4444;
+    color: #000000;
+}
+
+
+div.alert-fail,
+div.alert-error,
+button.btn-danger,
+li.alert-danger,
+span.label-danger {
+    background-color: #a94442 !important;
+    border-color: #5b2424 !important;
+    color: #000000 !important;
+}
+
+p.alert-info,
+li.alert-info,
+div.alert-info,
+button.btn-info,
+a.btn-info {
+    background-color: #286090;
+    border-color: #344444;
+    color: #000000;
+}
+
+div.alert-info p strong a {
+	color: #ffffff;
+}
+
+p.alert-warning,
+div.alert-warning,
+button.btn-warning,
+li.alert-warning,
+div.alert-ignored,
+div.alert-log,
+span.label-warning{
+    background-color: #feb236;
+    border-color: #cb7e01;
+    color: #000000;
+}
+
+li.alert-ignored,
+div.alert-ignored {
+    background-color: #21262d;
+    border-color: #344444;
+    color: #fff
+}
+
+#modal div div {
+    background-color: #21262d !important;
+    border-color: #344444;
+    border: 1px solid;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+}
+
+li.alert-warning div.diagnosis-details ul li a {
+    color: #5000ff;
+}
+
+li.alert-ignored div.diagnosis-details ul li a {
+    color: #ffff00;
+}
+
+
+li.alert-ignored span.fa-bell {
+    color: #ffa500;
+}

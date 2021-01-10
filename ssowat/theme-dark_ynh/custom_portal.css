@@ -1,0 +1,130 @@
+/*
+===============================================================================
+ This file contain extra CSS rules to customize the YunoHost user portal and
+ can be used to customize app tiles, buttons, etc...
+===============================================================================
+*/
+
+body {
+    background: #121212;
+}
+
+div.info,
+input.classic-btn {
+    background-color: #286090!important;
+    color: #fff
+}
+
+input.classic-btn:hover {
+    background-color: #0664b5 !important;
+}
+
+input.form-text {
+    background-color: #212121 !important;
+    color: #c9d1d9 !important;
+}
+
+label.icon:before {
+    background-color: #212121 !important;
+    color: #c9d1d9 !important;
+}
+
+a.validate-btn {
+    background-color: #3c763d;
+    color: #fff;
+}
+
+a.validate-btn:hover {
+    background-color: #358837;
+}
+
+.bluebg {
+    background: #0d47a1!important;
+}
+.bluebg:hover:after,
+.bluebg:focus:after,
+.bluebg:hover:before,
+.bluebg:focus:before {
+    background: #1565c0!important;
+}
+
+.purplebg {
+    background: #4a148c!important;
+}
+.purplebg:hover:after,
+.purplebg:focus:after,
+.purplebg:hover:before,
+.purplebg:focus:before {
+    background: #6a1b9a!important;
+}
+
+.redbg {
+    background: #b71c1c!important;
+}
+.redbg:hover:after,
+.redbg:focus:after,
+.redbg:hover:before,
+.redbg:focus:before {
+    background: #c62828!important;
+}
+
+.orangebg {
+    background: #e65100!important;
+}
+.orangebg:hover:after,
+.orangebg:focus:after,
+.orangebg:hover:before,
+.orangebg:focus:before {
+    background: #ef6c00!important;
+}
+
+.greenbg {
+    background: #1b5e20!important;
+}
+.greenbg:hover:after,
+.greenbg:focus:after,
+.greenbg:hover:before,
+.greenbg:focus:before {
+    background: #2e7d32!important;
+}
+
+.darkbluebg {
+    background: #1a237e!important;
+}
+.darkbluebg:hover:after,
+.darkbluebg:focus:after,
+.darkbluebg:hover:before,
+.darkbluebg:focus:before {
+    background: #283593!important;
+}
+
+.lightbluebg {
+    background: #01579b!important;
+}
+.lightbluebg:hover:after,
+.lightbluebg:focus:after,
+.lightbluebg:hover:before,
+.lightbluebg:focus:before {
+    background: #0277bd!important;
+}
+
+.yellowbg {
+    background: #f57f17!important;
+}
+.yellowbg:hover:after,
+.yellowbg:focus:after,
+.yellowbg:hover:before,
+.yellowbg:focus:before {
+    background: #f9a825!important;
+}
+
+/* Following colors are not used yet */
+.pinkbg {
+    background: #880e4f!important;
+}
+.pinkbg:hover:after,
+.pinkbg:focus:after,
+.pinkbg:hover:before,
+.pinkbg:focus:before {
+    background: #ad1457!important;
+}
